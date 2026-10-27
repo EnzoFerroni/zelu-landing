@@ -1,5 +1,83 @@
-# IgniteStarter
+# Zelu Landing Page
 
-This repository contains a starter project built using the [Ignite static site generator](https://github.com/twostraws/Ignite) – it includes just enough to get you going, so you should refer to the [IgniteSamples](https://github.com/twostraws/IgniteSamples) repository for detailed code samples.
+[![Swift](https://img.shields.io/badge/Swift-5.9-F05138?logo=swift&logoColor=white)](https://swift.org)
+[![Ignite](https://img.shields.io/badge/Ignite-static%20site-000000)](https://github.com/twostraws/Ignite)
+[![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-222222?logo=githubpages&logoColor=white)](https://zelu.online)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-You'll find small text file in each folder explaining what that folder does. Once you're happy with that, you should delete those files.
+The marketing site for the [Zelu](https://github.com/EnzoFerroni/Zelu) iOS app, written in Swift with the Ignite static site generator and live at **[zelu.online](https://zelu.online)**.
+
+## Table of Contents
+
+- [About](#about)
+- [Sections](#sections)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [License](#license)
+
+## About
+
+Zelu helps people keep their friendships alive by turning each friend into a bubble
+that grows when you meet and drifts into the void when you don't. This site presents
+the app, explains how it works and sends visitors to the App Store. Every page is
+described in Swift and compiled to static HTML, so the site needs no server or
+JavaScript framework. The copy is in Portuguese.
+
+## Sections
+
+- **Hero** with the App Store link
+- **Features**: friends in orbit, adding by proximity, meeting goals, moments and
+  rescuing friends from the void
+- **FAQ**: what Zelu is, how to add a friend, why no account is needed and how
+  meetings are detected
+- **Footer** with Instagram and TikTok links
+- Scroll-driven animations in a small vanilla `app.js`
+
+## Built With
+
+- [Ignite](https://github.com/twostraws/Ignite) by Paul Hudson: pages, components and
+  layouts written in Swift
+- Custom CSS and Google Fonts
+- GitHub Actions to build and publish to GitHub Pages
+
+## Getting Started
+
+Requirements: Xcode 15 or later (Swift 5.9) on macOS.
+
+```bash
+git clone https://github.com/EnzoFerroni/zelu-landing.git
+cd zelu-landing
+swift run
+```
+
+The site is generated into `Build/`. To preview it, install the
+[Ignite CLI](https://github.com/twostraws/IgniteCLI) and run `ignite run --preview`,
+or serve the folder with any static server.
+
+## Deployment
+
+Every push to `main` runs `.github/workflows/deploy.yml`, which builds the site with
+`swift run` on a macOS runner and publishes `Build/` to GitHub Pages. The custom domain
+is set by `Assets/CNAME`. The production site is deployed from the team repository
+[C13G1/zelu-landing](https://github.com/C13G1/zelu-landing); this fork does not
+publish Pages.
+
+## Project Structure
+
+```
+├── Sources/
+│   ├── Site.swift           Site configuration (name, URL, layout)
+│   ├── Pages/Home.swift     The landing page
+│   ├── Components/          NavBar, Hero, Features, Faq, Footer
+│   ├── Layouts/             MainLayout
+│   └── Content.swift        Copy for features and FAQ
+├── Assets/                  CSS, JavaScript, images and CNAME
+└── .github/workflows/       Build and deploy to GitHub Pages
+```
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Enzo Ferroni. Based on
+the IgniteStarter template, copyright (c) 2024 Paul Hudson and other authors.
