@@ -15,7 +15,7 @@ The marketing site for the [Zelu](https://github.com/EnzoFerroni/Zelu) iOS app, 
 - [Getting Started](#getting-started)
 - [Deployment](#deployment)
 - [Project Structure](#project-structure)
-- [Author](#author)
+- [Team](#team)
 - [License](#license)
 
 ## About
@@ -78,22 +78,54 @@ publish Pages.
 └── .github/workflows/       Build and deploy to GitHub Pages
 ```
 
-## Author
+## Team
 
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="100%">
+      <td align="center" width="25%">
+        <a href="https://github.com/camilatoniato"><img src="https://github.com/camilatoniato.png" width="90" alt="Camila Toniato"/></a>
+        <br/><sub><b>Camila Toniato</b></sub><br/><br/>
+        <a href="https://github.com/camilatoniato"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/camila-ruiz-toniato-91a926301/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/dayoleal"><img src="https://github.com/dayoleal.png" width="90" alt="Dayô Araújo"/></a>
+        <br/><sub><b>Dayô Araújo</b></sub><br/><br/>
+        <a href="https://github.com/dayoleal"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/dayo-araujo/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
         <a href="https://github.com/EnzoFerroni"><img src="https://github.com/EnzoFerroni.png" width="90" alt="Enzo Ferroni"/></a>
         <br/><sub><b>Enzo Ferroni</b></sub><br/><br/>
         <a href="https://github.com/EnzoFerroni"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
         <a href="https://www.linkedin.com/in/enzoferroni/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
       </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/JonasFNMelo"><img src="https://github.com/JonasFNMelo.png" width="90" alt="Jonas Melo"/></a>
+        <br/><sub><b>Jonas Melo</b></sub><br/><br/>
+        <a href="https://github.com/JonasFNMelo"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/jonas-melo-/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <a href="https://github.com/mathicastanha"><img src="https://github.com/mathicastanha.png" width="90" alt="Mathias Castanha"/></a>
+        <br/><sub><b>Mathias Castanha</b></sub><br/><br/>
+        <a href="https://github.com/mathicastanha"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/mathias-castanha/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/ThomasPGR"><img src="https://github.com/ThomasPGR.png" width="90" alt="Thomas Pinheiro Grandin"/></a>
+        <br/><sub><b>Thomas Pinheiro Grandin</b></sub><br/><br/>
+        <a href="https://github.com/ThomasPGR"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/thomas-pinheiro-grandin-704bb6297/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
     </tr>
   </table>
 </div>
 
-Part of [Zelu](https://github.com/EnzoFerroni/Zelu), built with the Zelu team at the Apple Developer Academy | Mackenzie.
+Part of [Zelu](https://github.com/EnzoFerroni/Zelu), built at the Apple Developer Academy | Mackenzie.
 
 ## License
 
