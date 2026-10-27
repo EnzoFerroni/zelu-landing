@@ -15,6 +15,7 @@ The marketing site for the [Zelu](https://github.com/EnzoFerroni/Zelu) iOS app, 
 - [Getting Started](#getting-started)
 - [Deployment](#deployment)
 - [Project Structure](#project-structure)
+- [Author](#author)
 - [License](#license)
 
 ## About
@@ -77,7 +78,26 @@ publish Pages.
 └── .github/workflows/       Build and deploy to GitHub Pages
 ```
 
+## Author
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100%">
+        <a href="https://github.com/EnzoFerroni"><img src="https://github.com/EnzoFerroni.png" width="90" alt="Enzo Ferroni"/></a>
+        <br/><sub><b>Enzo Ferroni</b></sub><br/><br/>
+        <a href="https://github.com/EnzoFerroni"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/enzoferroni/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+Part of [Zelu](https://github.com/EnzoFerroni/Zelu), built with the Zelu team at the Apple Developer Academy | Mackenzie.
+
 ## License
 
-Released under the [MIT License](LICENSE). Copyright (c) 2026 Enzo Ferroni. Based on
+Released under the [MIT License](LICENSE). Copyright (c) 2026 the Zelu team: Camila
+Toniato, Dayô Araújo, Enzo Ferroni, Jonas Melo, Mathias Castanha and Thomas Pinheiro
+Grandin. Based on
 the IgniteStarter template, copyright (c) 2024 Paul Hudson and other authors.
